@@ -62,7 +62,7 @@ main{
 }
 
 #interests {
-    border: 4px rgb(31, 28, 28) ridge;
+    border: 4px rgb(42, 19, 19) ridge;
     padding: 8px;
     margin-top: 20px;
 }
@@ -71,3 +71,76 @@ h2, h3 {
     margin: 0px;
 }
 
+.content h1 {
+    color: rgba(71, 30, 153, 0.589);
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #00000060;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #a9fff9;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #1658ca;
+}
+
+@media screen and (min-width: 120px) and (max-width: 1080px) {
+  main {
+    height: 100ch;
+    zoom: 3.5;
+    display: grid;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+
+  #all-contents {
+    height: 100ch;
+    margin: none;
+  }
+
+  a {
+    font-size: 42px;
+  }
+
+  .sidebar {
+    margin-right: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sidebar-img {
+    width: 100%;
+  }
+
+  p,
+  li {
+    font-size: 48px;
+  }
+
+  .content {
+    align-content: center;
+    justify-content: center;
+  }
+}
